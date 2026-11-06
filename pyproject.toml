@@ -1,0 +1,45 @@
+[project]
+name = "timeseries48"
+version = "0.1.0"
+description = "Predicting factor-adjusted stock returns"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lightgbm",
+    "numpy",
+    "polars",
+    "scipy",
+    "scikit-learn",
+    "matplotlib>=3.11.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.1",
+    "ty>=0.0.66",
+    "pre-commit>=4.6.1",
+    "scipy-stubs",
+    "ipykernel>=7.3.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+# Enable ALL rules
+select = ["ALL"]
+# Ignore mutually exclusive rules to prevent conflicts
+ignore = [
+    "D203",  # 1 blank line required before class docstring (conflicts with D211)
+    "D212",  # Multi-line docstring summary should start at the first line (conflicts with D213)
+    "ISC001", # Implicit string concatenation (conflicts with formatter)
+    "COM812", # Missing trailing comma (conflicts with formatter)
+    "CPY",    # Copyright check (usually unnecessary unless mandated)
+    "PLR0915", # Too many statements
+]
+# Ignore comments starting with these tags
+task-tags = ["TODO", "FIXME","ISSUE", "NOTE", "TUTOR", "BY"]
+
+[tool.ruff.lint.pycodestyle]
+ignore-overlong-task-comments = true

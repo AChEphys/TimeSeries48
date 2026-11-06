@@ -1,0 +1,11 @@
+[
+  {
+    "window": 6,
+    "rows_archived": 343247,
+    "rows_matched": 343247,
+    "max_abs_diff": 1.734723475976807e-18,
+    "corr": 1.0,
+    "rank_ic_archived": 0.06206618928170693,
+    "rank_ic_new": 0.06206618928170693
+  }
+]

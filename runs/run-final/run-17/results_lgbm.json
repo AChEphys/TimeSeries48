@@ -1,0 +1,152 @@
+[
+  {
+    "train_start": "2024-06-28",
+    "retrain_end": "2025-06-11",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2024-06-28",
+        "2024-08-30"
+      ],
+      [
+        "2024-09-02",
+        "2024-11-13"
+      ],
+      [
+        "2024-11-14",
+        "2025-01-17"
+      ],
+      [
+        "2025-01-20",
+        "2025-04-01"
+      ],
+      [
+        "2025-04-02",
+        "2025-06-11"
+      ]
+    ],
+    "test_start": "2025-06-26",
+    "test_end": "2025-12-18",
+    "train_rows": 476001,
+    "validation_rows": 130339,
+    "fold_train_rows": [
+      493579,
+      465167,
+      464622,
+      464029,
+      492609
+    ],
+    "fold_validation_rows": [
+      129881,
+      129965,
+      130366,
+      130847,
+      130636
+    ],
+    "fold_features": [
+      53,
+      53,
+      53,
+      53,
+      53
+    ],
+    "retrain_rows": 651695,
+    "test_rows": 343247,
+    "feature_set": "raw+labelraw-6-10",
+    "recency_half_life": null,
+    "correction_of": null,
+    "features": 53,
+    "history_missing_share": {
+      "labelraw_lag6": 0.0018,
+      "labelraw_lag7": 0.0022,
+      "labelraw_lag8": 0.0025,
+      "labelraw_lag9": 0.0027,
+      "labelraw_lag10": 0.0029
+    },
+    "best_iteration": 415,
+    "rank_ic_best_iteration": 317,
+    "cv_val_r2": 0.006623826685113054,
+    "cv_val_rank_ic": 0.07504421508058401,
+    "r2": 0.007543669593250812,
+    "kt": 0.04490484580307998,
+    "ic": 0.08762558711065725,
+    "ir": 15.373970437987156,
+    "runtime": 106.95140242576599,
+    "peak_memory_GB": 2.692272186279297
+  },
+  {
+    "train_start": "2024-12-24",
+    "retrain_end": "2025-12-04",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2024-12-24",
+        "2025-03-06"
+      ],
+      [
+        "2025-03-07",
+        "2025-05-15"
+      ],
+      [
+        "2025-05-16",
+        "2025-07-21"
+      ],
+      [
+        "2025-07-22",
+        "2025-09-23"
+      ],
+      [
+        "2025-09-24",
+        "2025-12-04"
+      ]
+    ],
+    "test_start": "2025-12-19",
+    "test_end": "2026-04-28",
+    "train_rows": 478952,
+    "validation_rows": 131138,
+    "fold_train_rows": [
+      496587,
+      468190,
+      467621,
+      466938,
+      495425
+    ],
+    "fold_validation_rows": [
+      130683,
+      130653,
+      131092,
+      131611,
+      131652
+    ],
+    "fold_features": [
+      53,
+      53,
+      53,
+      53,
+      53
+    ],
+    "retrain_rows": 655691,
+    "test_rows": 241061,
+    "feature_set": "raw+labelraw-6-10",
+    "recency_half_life": null,
+    "correction_of": null,
+    "features": 53,
+    "history_missing_share": {
+      "labelraw_lag6": 0.0021,
+      "labelraw_lag7": 0.0026,
+      "labelraw_lag8": 0.003,
+      "labelraw_lag9": 0.0032,
+      "labelraw_lag10": 0.0035
+    },
+    "best_iteration": 361,
+    "rank_ic_best_iteration": 516,
+    "cv_val_r2": 0.006883661106355921,
+    "cv_val_rank_ic": 0.07255441883641325,
+    "r2": 0.00608795478546742,
+    "kt": 0.05033898965694693,
+    "ic": 0.07746525242346358,
+    "ir": 9.28860047258756,
+    "runtime": 98.95054221153259,
+    "peak_memory_GB": 2.124408721923828
+  }
+]

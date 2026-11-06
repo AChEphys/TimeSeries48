@@ -1,0 +1,43 @@
+{
+  "setup": "run-15",
+  "trainer": "multi-day",
+  "archived_run": "runs/run-15_multi-day-rawfeat+lag1feat+lag4feat-p5fcv",
+  "head": {
+    "RANDOM_SEED": 70563,
+    "CORR_BAR": 0.02,
+    "LOOKBACK": 240,
+    "GAP": 10,
+    "TEST_DAYS": 120,
+    "VALIDATION_FOLD": 5,
+    "PURGE": 10,
+    "SELECT_FEATURES": false,
+    "MAX_ROUNDS": 2000,
+    "EARLY_STOPPING_ROUNDS": 200,
+    "FEATURE_SET": "raw+lags-1-4",
+    "LABEL_LAG": 6,
+    "LABEL_MEANS": [
+      20,
+      60
+    ],
+    "LABEL_SPREAD": 20,
+    "DEV_WINDOWS": [
+      5,
+      20
+    ],
+    "LAGS": [
+      1,
+      5
+    ],
+    "STALE_LIMIT": 20,
+    "FEATURE_FRACTION": 1.0,
+    "RECENCY_HALF_LIFE": null,
+    "CORRECTION_OF": null
+  },
+  "windows": [
+    6,
+    7
+  ],
+  "data_file": "/workspaces/TimeSeries48/data.parquet",
+  "minutes": 3.95,
+  "finished": "2026-11-05 13:52:36"
+}

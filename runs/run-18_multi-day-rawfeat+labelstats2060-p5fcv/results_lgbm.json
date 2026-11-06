@@ -1,0 +1,434 @@
+[
+  {
+    "train_start": "2022-01-04",
+    "retrain_end": "2022-12-14",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-01-04",
+        "2022-03-15"
+      ],
+      [
+        "2022-03-16",
+        "2022-05-25"
+      ],
+      [
+        "2022-05-26",
+        "2022-07-29"
+      ],
+      [
+        "2022-08-01",
+        "2022-10-11"
+      ],
+      [
+        "2022-10-12",
+        "2022-12-14"
+      ]
+    ],
+    "test_start": "2022-12-29",
+    "test_end": "2023-06-30",
+    "train_rows": 437644,
+    "validation_rows": 119909,
+    "fold_train_rows": [
+      455290,
+      428602,
+      431453,
+      424284,
+      448591
+    ],
+    "fold_validation_rows": [
+      118342,
+      119040,
+      115860,
+      122100,
+      124202
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 599544,
+    "test_rows": 328789,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0702,
+      "labelhist_mean60": 0.1603,
+      "labelhist_std20": 0.0702,
+      "labelhist_max20": 0.0702
+    },
+    "best_iteration": 284,
+    "rank_ic_best_iteration": 134,
+    "cv_val_r2": 0.005997845145547553,
+    "cv_val_rank_ic": 0.07489435137036918,
+    "r2": 0.0072153018032459215,
+    "kt": 0.04536055185146266,
+    "ic": 0.08417608829267358,
+    "ir": 12.605676771252162,
+    "runtime": 86.38708090782166,
+    "peak_memory_GB": 2.2766952514648438
+  },
+  {
+    "train_start": "2022-07-06",
+    "retrain_end": "2023-06-14",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-07-06",
+        "2022-09-07"
+      ],
+      [
+        "2022-09-08",
+        "2022-11-18"
+      ],
+      [
+        "2022-11-21",
+        "2023-01-31"
+      ],
+      [
+        "2023-02-01",
+        "2023-04-06"
+      ],
+      [
+        "2023-04-07",
+        "2023-06-14"
+      ]
+    ],
+    "test_start": "2023-07-03",
+    "test_end": "2023-12-25",
+    "train_rows": 454199,
+    "validation_rows": 124389,
+    "fold_train_rows": [
+      473976,
+      444853,
+      442621,
+      441296,
+      468250
+    ],
+    "fold_validation_rows": [
+      121317,
+      123423,
+      125060,
+      125933,
+      126212
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 621945,
+    "test_rows": 336828,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0052,
+      "labelhist_mean60": 0.0097,
+      "labelhist_std20": 0.0052,
+      "labelhist_max20": 0.0052
+    },
+    "best_iteration": 259,
+    "rank_ic_best_iteration": 277,
+    "cv_val_r2": 0.005187996312029197,
+    "cv_val_rank_ic": 0.0603240815720532,
+    "r2": 0.01066789028856796,
+    "kt": 0.037555797942454804,
+    "ic": 0.10392290333336952,
+    "ir": 15.51610960641449,
+    "runtime": 83.36215734481812,
+    "peak_memory_GB": 2.2095069885253906
+  },
+  {
+    "train_start": "2022-12-29",
+    "retrain_end": "2023-12-11",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-12-29",
+        "2023-03-10"
+      ],
+      [
+        "2023-03-13",
+        "2023-05-19"
+      ],
+      [
+        "2023-05-22",
+        "2023-07-26"
+      ],
+      [
+        "2023-07-27",
+        "2023-09-28"
+      ],
+      [
+        "2023-10-09",
+        "2023-12-11"
+      ]
+    ],
+    "test_start": "2023-12-26",
+    "test_end": "2024-06-27",
+    "train_rows": 465560,
+    "validation_rows": 127475,
+    "fold_train_rows": [
+      484406,
+      456354,
+      454976,
+      452521,
+      479542
+    ],
+    "fold_validation_rows": [
+      125537,
+      126175,
+      127017,
+      128921,
+      129726
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 637376,
+    "test_rows": 339720,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0041,
+      "labelhist_mean60": 0.0079,
+      "labelhist_std20": 0.0041,
+      "labelhist_max20": 0.0041
+    },
+    "best_iteration": 247,
+    "rank_ic_best_iteration": 433,
+    "cv_val_r2": 0.007551906915044615,
+    "cv_val_rank_ic": 0.05038666160487652,
+    "r2": 0.017684994431146683,
+    "kt": 0.0569963249401703,
+    "ic": 0.1369585692104418,
+    "ir": 19.172285417365092,
+    "runtime": 80.06222653388977,
+    "peak_memory_GB": 2.178363800048828
+  },
+  {
+    "train_start": "2023-07-03",
+    "retrain_end": "2024-06-13",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2023-07-03",
+        "2023-09-04"
+      ],
+      [
+        "2023-09-05",
+        "2023-11-15"
+      ],
+      [
+        "2023-11-16",
+        "2024-01-19"
+      ],
+      [
+        "2024-01-22",
+        "2024-04-02"
+      ],
+      [
+        "2024-04-03",
+        "2024-06-13"
+      ]
+    ],
+    "test_start": "2024-06-28",
+    "test_end": "2024-12-23",
+    "train_rows": 473444,
+    "validation_rows": 129662,
+    "fold_train_rows": [
+      491933,
+      462540,
+      461761,
+      461136,
+      489848
+    ],
+    "fold_validation_rows": [
+      128268,
+      129484,
+      130018,
+      130467,
+      130072
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 648309,
+    "test_rows": 339196,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0027,
+      "labelhist_mean60": 0.0056,
+      "labelhist_std20": 0.0027,
+      "labelhist_max20": 0.0027
+    },
+    "best_iteration": 420,
+    "rank_ic_best_iteration": 611,
+    "cv_val_r2": 0.008743581913712096,
+    "cv_val_rank_ic": 0.04790293207610858,
+    "r2": 0.0038640013313394617,
+    "kt": 0.038680278707388806,
+    "ic": 0.09078017144175494,
+    "ir": 12.688467275525237,
+    "runtime": 113.6300220489502,
+    "peak_memory_GB": 2.2285919189453125
+  },
+  {
+    "train_start": "2023-12-26",
+    "retrain_end": "2024-12-09",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2023-12-26",
+        "2024-03-07"
+      ],
+      [
+        "2024-03-08",
+        "2024-05-17"
+      ],
+      [
+        "2024-05-20",
+        "2024-07-23"
+      ],
+      [
+        "2024-07-24",
+        "2024-09-27"
+      ],
+      [
+        "2024-09-30",
+        "2024-12-09"
+      ]
+    ],
+    "test_start": "2024-12-24",
+    "test_end": "2025-06-25",
+    "train_rows": 475201,
+    "validation_rows": 130113,
+    "fold_train_rows": [
+      491873,
+      463662,
+      464103,
+      464180,
+      492185
+    ],
+    "fold_validation_rows": [
+      130320,
+      130267,
+      129953,
+      129896,
+      130131
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 650567,
+    "test_rows": 341037,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0017,
+      "labelhist_mean60": 0.0028,
+      "labelhist_std20": 0.0017,
+      "labelhist_max20": 0.0017
+    },
+    "best_iteration": 137,
+    "rank_ic_best_iteration": 2,
+    "cv_val_r2": 0.005265464045372159,
+    "cv_val_rank_ic": 0.04465338924813764,
+    "r2": 0.005143018687184142,
+    "kt": 0.05266380335929945,
+    "ic": 0.07555453580685803,
+    "ir": 12.21424421681164,
+    "runtime": 60.66234564781189,
+    "peak_memory_GB": 2.115550994873047
+  },
+  {
+    "train_start": "2024-06-28",
+    "retrain_end": "2025-06-11",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2024-06-28",
+        "2024-08-30"
+      ],
+      [
+        "2024-09-02",
+        "2024-11-13"
+      ],
+      [
+        "2024-11-14",
+        "2025-01-17"
+      ],
+      [
+        "2025-01-20",
+        "2025-04-01"
+      ],
+      [
+        "2025-04-02",
+        "2025-06-11"
+      ]
+    ],
+    "test_start": "2025-06-26",
+    "test_end": "2025-12-18",
+    "train_rows": 476001,
+    "validation_rows": 130339,
+    "fold_train_rows": [
+      493579,
+      465167,
+      464622,
+      464029,
+      492609
+    ],
+    "fold_validation_rows": [
+      129881,
+      129965,
+      130366,
+      130847,
+      130636
+    ],
+    "fold_features": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "retrain_rows": 651695,
+    "test_rows": 343247,
+    "feature_set": "raw+labelstats-max",
+    "features": 52,
+    "history_missing_share": {
+      "labelhist_mean20": 0.0024,
+      "labelhist_mean60": 0.0032,
+      "labelhist_std20": 0.0024,
+      "labelhist_max20": 0.0024
+    },
+    "best_iteration": 290,
+    "rank_ic_best_iteration": 184,
+    "cv_val_r2": 0.005739352500166772,
+    "cv_val_rank_ic": 0.08180152491911018,
+    "r2": 0.005229201027812658,
+    "kt": 0.03753273808327201,
+    "ic": 0.07479791708388035,
+    "ir": 13.93447949304972,
+    "runtime": 90.98953700065613,
+    "peak_memory_GB": 2.195281982421875
+  }
+]

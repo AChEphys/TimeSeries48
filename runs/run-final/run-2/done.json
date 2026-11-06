@@ -1,0 +1,24 @@
+{
+  "setup": "run-2",
+  "trainer": "original",
+  "archived_run": "runs/run-2_original-baseline-six-windows",
+  "head": {
+    "RANDOM_SEED": 70563,
+    "CORR_BAR": 0.02,
+    "LOOKBACK": 240,
+    "GAP": 10,
+    "TEST_DAYS": 120
+  },
+  "windows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "data_file": "/workspaces/TimeSeries48/data.parquet",
+  "minutes": 3.11,
+  "finished": "2026-11-05 13:34:03"
+}

@@ -1,0 +1,24 @@
+{
+  "setup": "run-5",
+  "trainer": "baseline",
+  "archived_run": "runs/run-5_baseline-all-feat-purged-5-fold-val-retrain",
+  "head": {
+    "RANDOM_SEED": 70563,
+    "CORR_BAR": 0.02,
+    "LOOKBACK": 240,
+    "GAP": 10,
+    "TEST_DAYS": 120,
+    "VALIDATION_FOLD": 5,
+    "PURGE": 10,
+    "SELECT_FEATURES": false,
+    "MAX_ROUNDS": 2000,
+    "EARLY_STOPPING_ROUNDS": 200
+  },
+  "windows": [
+    6,
+    7
+  ],
+  "data_file": "/workspaces/TimeSeries48/data.parquet",
+  "minutes": 3.13,
+  "finished": "2026-11-05 13:37:12"
+}

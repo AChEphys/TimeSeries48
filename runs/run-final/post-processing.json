@@ -1,0 +1,150 @@
+{
+  "test_start": "2025-12-19",
+  "test_end": "2026-04-28",
+  "candidates": {
+    "run-2": {
+      "members": [
+        "run-2"
+      ],
+      "demeaned": false,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "run-5": {
+      "members": [
+        "run-5"
+      ],
+      "demeaned": true,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "run-22": {
+      "members": [
+        "run-22"
+      ],
+      "demeaned": true,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "run-23": {
+      "members": [
+        "run-23"
+      ],
+      "demeaned": true,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "run-11": {
+      "members": [
+        "run-11"
+      ],
+      "demeaned": true,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "run-17": {
+      "members": [
+        "run-17"
+      ],
+      "demeaned": true,
+      "weighting": "single",
+      "weights": [
+        1.0
+      ],
+      "rows": 241061
+    },
+    "mix-11-17-equal": {
+      "members": [
+        "run-11",
+        "run-17"
+      ],
+      "demeaned": true,
+      "weighting": "equal",
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "rows": 241061
+    },
+    "mix-11-17-fitted": {
+      "members": [
+        "run-11",
+        "run-17"
+      ],
+      "demeaned": true,
+      "weighting": "fitted",
+      "weights": [
+        0.356533,
+        0.643467
+      ],
+      "rows": 241061,
+      "fitted_on": {
+        "rows": 655691,
+        "dates": [
+          "2024-12-24",
+          "2025-12-04"
+        ]
+      }
+    },
+    "lagmix-equal": {
+      "members": [
+        "run-11",
+        "run-13",
+        "run-14",
+        "run-15",
+        "run-16"
+      ],
+      "demeaned": true,
+      "weighting": "equal",
+      "weights": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "rows": 241061
+    },
+    "lagmix-fitted": {
+      "members": [
+        "run-11",
+        "run-13",
+        "run-14",
+        "run-15",
+        "run-16"
+      ],
+      "demeaned": true,
+      "weighting": "fitted",
+      "weights": [
+        0.381397,
+        0.357007,
+        0.056949,
+        0.0,
+        0.204647
+      ],
+      "rows": 241061,
+      "fitted_on": {
+        "rows": 655691,
+        "dates": [
+          "2024-12-24",
+          "2025-12-04"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "grid": {
+    "raw": {},
+    "rank": {
+      "features": "rank"
+    },
+    "z": {
+      "features": "z"
+    },
+    "raw+rank": {
+      "features": "raw+rank"
+    },
+    "rank+daystats": {
+      "features": "rank+daystats"
+    },
+    "raw+daystats": {
+      "features": "raw+daystats"
+    },
+    "raw+daymean": {
+      "features": "raw+daymean"
+    },
+    "raw+daystd": {
+      "features": "raw+daystd"
+    },
+    "raw+rank+daymean": {
+      "features": "raw+rank+daymean"
+    },
+    "raw+rank+daystd": {
+      "features": "raw+rank+daystd"
+    },
+    "raw+rank+daystats": {
+      "features": "raw+rank+daystats"
+    }
+  },
+  "feature_sets": {
+    "raw": [
+      "raw"
+    ],
+    "rank": [
+      "rank"
+    ],
+    "z": [
+      "z"
+    ],
+    "raw+rank": [
+      "raw",
+      "rank"
+    ],
+    "rank+daystats": [
+      "rank",
+      "daymean",
+      "daystd"
+    ],
+    "raw+daystats": [
+      "raw",
+      "daymean",
+      "daystd"
+    ],
+    "raw+daymean": [
+      "raw",
+      "daymean"
+    ],
+    "raw+daystd": [
+      "raw",
+      "daystd"
+    ],
+    "raw+rank+daymean": [
+      "raw",
+      "rank",
+      "daymean"
+    ],
+    "raw+rank+daystd": [
+      "raw",
+      "rank",
+      "daystd"
+    ],
+    "raw+rank+daystats": [
+      "raw",
+      "rank",
+      "daymean",
+      "daystd"
+    ]
+  },
+  "quiet": {
+    "verbosity": -1
+  },
+  "base_params": {
+    "objective": "mse",
+    "metric": "rmse",
+    "device": "cpu",
+    "gpu_platform_id": 0,
+    "gpu_device_id": 0,
+    "num_threads": 14,
+    "boosting_type": "gbdt",
+    "data_sample_strategy": "goss",
+    "num_leaves": 20,
+    "max_depth": 7,
+    "subsample": 0.8,
+    "reg_alpha": 0.98,
+    "reg_lambda": 0.98,
+    "min_child_weight": 0.7544,
+    "learning_rate": 0.01,
+    "verbosity": 1
+  },
+  "seed": "RANDOM_SEED + window index",
+  "RANDOM_SEED": 70563,
+  "LOOKBACK": 240,
+  "GAP": 10,
+  "TEST_DAYS": 120,
+  "VALIDATION_FOLD": 5,
+  "PURGE": 10,
+  "SELECT_FEATURES": false,
+  "MAX_ROUNDS": 2000,
+  "EARLY_STOPPING_ROUNDS": 200
+}

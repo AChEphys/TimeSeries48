@@ -1,0 +1,10 @@
+{
+  "tot": 5,
+  "features": [
+    "labelraw_lag6_scaled",
+    "labelraw_lag7_scaled",
+    "labelraw_lag8_scaled",
+    "labelraw_lag9_scaled",
+    "labelraw_lag10_scaled"
+  ]
+}

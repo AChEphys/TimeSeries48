@@ -1,0 +1,38 @@
+{
+    "name": "QuantPy314",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts": [
+        "source=quantpy-gh-auth,target=/home/vscode/.config/gh,type=volume",
+        "source=quantpy-claude-state,target=/home/vscode/.claude,type=volume",
+        "source=quantpy-codex-state,target=/home/vscode/.codex,type=volume"
+    ],
+    "postCreateCommand": "sudo chown -R vscode:vscode /home/vscode/.config/gh /home/vscode/.claude /home/vscode/.codex",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "charliermarsh.ruff",
+                "anthropic.claude-code",
+                "openai.chatgpt"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+                "python.analysis.typeCheckingMode": "basic",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnSave": true,
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll.ruff": "explicit",
+                        "source.organizeImports.ruff": "explicit"
+                    }
+                },
+                "ruff.configurationPreference": "filesystemFirst"
+            }
+        }
+    },
+    "remoteUser": "vscode"
+}

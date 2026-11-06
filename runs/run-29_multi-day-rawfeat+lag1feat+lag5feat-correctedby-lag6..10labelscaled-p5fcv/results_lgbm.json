@@ -1,0 +1,452 @@
+[
+  {
+    "train_start": "2022-01-04",
+    "retrain_end": "2022-12-14",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-01-04",
+        "2022-03-15"
+      ],
+      [
+        "2022-03-16",
+        "2022-05-25"
+      ],
+      [
+        "2022-05-26",
+        "2022-07-29"
+      ],
+      [
+        "2022-08-01",
+        "2022-10-11"
+      ],
+      [
+        "2022-10-12",
+        "2022-12-14"
+      ]
+    ],
+    "test_start": "2022-12-29",
+    "test_end": "2023-06-30",
+    "train_rows": 437644,
+    "validation_rows": 119909,
+    "fold_train_rows": [
+      455290,
+      428602,
+      431453,
+      424284,
+      448591
+    ],
+    "fold_validation_rows": [
+      118342,
+      119040,
+      115860,
+      122100,
+      124202
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 599544,
+    "test_rows": 328789,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0332,
+      "labelraw_lag7_scaled": 0.0412,
+      "labelraw_lag8_scaled": 0.046,
+      "labelraw_lag9_scaled": 0.0507,
+      "labelraw_lag10_scaled": 0.0555
+    },
+    "best_iteration": 9,
+    "rank_ic_best_iteration": 72,
+    "cv_val_r2": 0.006441883965715034,
+    "cv_val_rank_ic": 0.07229878314766439,
+    "r2": 0.00974113785359254,
+    "kt": 0.03817299918415161,
+    "ic": 0.09662406117414092,
+    "ir": 13.426011052068642,
+    "runtime": 33.315431118011475,
+    "peak_memory_GB": 2.447601318359375
+  },
+  {
+    "train_start": "2022-07-06",
+    "retrain_end": "2023-06-14",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-07-06",
+        "2022-09-07"
+      ],
+      [
+        "2022-09-08",
+        "2022-11-18"
+      ],
+      [
+        "2022-11-21",
+        "2023-01-31"
+      ],
+      [
+        "2023-02-01",
+        "2023-04-06"
+      ],
+      [
+        "2023-04-07",
+        "2023-06-14"
+      ]
+    ],
+    "test_start": "2023-07-03",
+    "test_end": "2023-12-25",
+    "train_rows": 454199,
+    "validation_rows": 124389,
+    "fold_train_rows": [
+      473976,
+      444853,
+      442621,
+      441296,
+      468250
+    ],
+    "fold_validation_rows": [
+      121317,
+      123423,
+      125060,
+      125933,
+      126212
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 621945,
+    "test_rows": 336828,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0068,
+      "labelraw_lag7_scaled": 0.0074,
+      "labelraw_lag8_scaled": 0.0078,
+      "labelraw_lag9_scaled": 0.0082,
+      "labelraw_lag10_scaled": 0.0086
+    },
+    "best_iteration": 9,
+    "rank_ic_best_iteration": 209,
+    "cv_val_r2": 0.007838848925034614,
+    "cv_val_rank_ic": 0.047541576305342614,
+    "r2": 0.012073991624198865,
+    "kt": 0.044010899172296246,
+    "ic": 0.1044607347519559,
+    "ir": 15.625294675547023,
+    "runtime": 32.69144630432129,
+    "peak_memory_GB": 2.2094573974609375
+  },
+  {
+    "train_start": "2022-12-29",
+    "retrain_end": "2023-12-11",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2022-12-29",
+        "2023-03-10"
+      ],
+      [
+        "2023-03-13",
+        "2023-05-19"
+      ],
+      [
+        "2023-05-22",
+        "2023-07-26"
+      ],
+      [
+        "2023-07-27",
+        "2023-09-28"
+      ],
+      [
+        "2023-10-09",
+        "2023-12-11"
+      ]
+    ],
+    "test_start": "2023-12-26",
+    "test_end": "2024-06-27",
+    "train_rows": 465560,
+    "validation_rows": 127475,
+    "fold_train_rows": [
+      484406,
+      456354,
+      454976,
+      452521,
+      479542
+    ],
+    "fold_validation_rows": [
+      125537,
+      126175,
+      127017,
+      128921,
+      129726
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 637376,
+    "test_rows": 339720,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0023,
+      "labelraw_lag7_scaled": 0.0028,
+      "labelraw_lag8_scaled": 0.0031,
+      "labelraw_lag9_scaled": 0.0035,
+      "labelraw_lag10_scaled": 0.0037
+    },
+    "best_iteration": 1,
+    "rank_ic_best_iteration": 201,
+    "cv_val_r2": 0.010952502839000266,
+    "cv_val_rank_ic": 0.059557657550029494,
+    "r2": 0.018801007253733126,
+    "kt": 0.05879364524162007,
+    "ic": 0.13746391896088206,
+    "ir": 17.870305173977524,
+    "runtime": 32.12026286125183,
+    "peak_memory_GB": 2.2030181884765625
+  },
+  {
+    "train_start": "2023-07-03",
+    "retrain_end": "2024-06-13",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2023-07-03",
+        "2023-09-04"
+      ],
+      [
+        "2023-09-05",
+        "2023-11-15"
+      ],
+      [
+        "2023-11-16",
+        "2024-01-19"
+      ],
+      [
+        "2024-01-22",
+        "2024-04-02"
+      ],
+      [
+        "2024-04-03",
+        "2024-06-13"
+      ]
+    ],
+    "test_start": "2024-06-28",
+    "test_end": "2024-12-23",
+    "train_rows": 473444,
+    "validation_rows": 129662,
+    "fold_train_rows": [
+      491933,
+      462540,
+      461761,
+      461136,
+      489848
+    ],
+    "fold_validation_rows": [
+      128268,
+      129484,
+      130018,
+      130467,
+      130072
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 648309,
+    "test_rows": 339196,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0015,
+      "labelraw_lag7_scaled": 0.0019,
+      "labelraw_lag8_scaled": 0.0021,
+      "labelraw_lag9_scaled": 0.0024,
+      "labelraw_lag10_scaled": 0.0026
+    },
+    "best_iteration": 30,
+    "rank_ic_best_iteration": 203,
+    "cv_val_r2": 0.010470287202795215,
+    "cv_val_rank_ic": 0.058328038733480095,
+    "r2": 0.005535909777752646,
+    "kt": 0.04039067035301359,
+    "ic": 0.09762318297203212,
+    "ir": 13.911880717216942,
+    "runtime": 37.564759731292725,
+    "peak_memory_GB": 2.1169586181640625
+  },
+  {
+    "train_start": "2023-12-26",
+    "retrain_end": "2024-12-09",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2023-12-26",
+        "2024-03-07"
+      ],
+      [
+        "2024-03-08",
+        "2024-05-17"
+      ],
+      [
+        "2024-05-20",
+        "2024-07-23"
+      ],
+      [
+        "2024-07-24",
+        "2024-09-27"
+      ],
+      [
+        "2024-09-30",
+        "2024-12-09"
+      ]
+    ],
+    "test_start": "2024-12-24",
+    "test_end": "2025-06-25",
+    "train_rows": 475201,
+    "validation_rows": 130113,
+    "fold_train_rows": [
+      491873,
+      463662,
+      464103,
+      464180,
+      492185
+    ],
+    "fold_validation_rows": [
+      130320,
+      130267,
+      129953,
+      129896,
+      130131
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 650567,
+    "test_rows": 341037,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0012,
+      "labelraw_lag7_scaled": 0.0015,
+      "labelraw_lag8_scaled": 0.0017,
+      "labelraw_lag9_scaled": 0.0018,
+      "labelraw_lag10_scaled": 0.002
+    },
+    "best_iteration": 20,
+    "rank_ic_best_iteration": 219,
+    "cv_val_r2": 0.007808304561558899,
+    "cv_val_rank_ic": 0.05535928295648089,
+    "r2": 0.004661257750668946,
+    "kt": 0.04615574625665088,
+    "ic": 0.07661850777412568,
+    "ir": 11.273324798429615,
+    "runtime": 36.02883458137512,
+    "peak_memory_GB": 2.0649375915527344
+  },
+  {
+    "train_start": "2024-06-28",
+    "retrain_end": "2025-06-11",
+    "folds": 5,
+    "fold_validation": [
+      [
+        "2024-06-28",
+        "2024-08-30"
+      ],
+      [
+        "2024-09-02",
+        "2024-11-13"
+      ],
+      [
+        "2024-11-14",
+        "2025-01-17"
+      ],
+      [
+        "2025-01-20",
+        "2025-04-01"
+      ],
+      [
+        "2025-04-02",
+        "2025-06-11"
+      ]
+    ],
+    "test_start": "2025-06-26",
+    "test_end": "2025-12-18",
+    "train_rows": 476001,
+    "validation_rows": 130339,
+    "fold_train_rows": [
+      493579,
+      465167,
+      464622,
+      464029,
+      492609
+    ],
+    "fold_validation_rows": [
+      129881,
+      129965,
+      130366,
+      130847,
+      130636
+    ],
+    "fold_features": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "retrain_rows": 651695,
+    "test_rows": 343247,
+    "feature_set": "labelraw-6-10-scaled",
+    "recency_half_life": null,
+    "correction_of": "runs/run-11_multi-day-rawfeat+lag1feat+lag5feat-p5fcv",
+    "features": 5,
+    "history_missing_share": {
+      "labelraw_lag6_scaled": 0.0018,
+      "labelraw_lag7_scaled": 0.0022,
+      "labelraw_lag8_scaled": 0.0025,
+      "labelraw_lag9_scaled": 0.0027,
+      "labelraw_lag10_scaled": 0.0029
+    },
+    "best_iteration": 1,
+    "rank_ic_best_iteration": 87,
+    "cv_val_r2": 0.005741092419865934,
+    "cv_val_rank_ic": 0.07720674663733736,
+    "r2": 0.007398503158632663,
+    "kt": 0.04643271549955968,
+    "ic": 0.08932630175936253,
+    "ir": 15.151697681774706,
+    "runtime": 32.416717290878296,
+    "peak_memory_GB": 2.0287704467773438
+  }
+]

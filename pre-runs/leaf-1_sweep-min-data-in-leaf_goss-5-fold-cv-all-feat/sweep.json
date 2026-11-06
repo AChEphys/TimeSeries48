@@ -1,0 +1,45 @@
+{
+  "grid": {
+    "min-data-20": {},
+    "min-data-100": {
+      "min_data_in_leaf": 100
+    },
+    "min-data-200": {
+      "min_data_in_leaf": 200
+    },
+    "min-data-1000": {
+      "min_data_in_leaf": 1000
+    },
+    "min-data-4000": {
+      "min_data_in_leaf": 4000
+    }
+  },
+  "base_params": {
+    "objective": "mse",
+    "metric": "rmse",
+    "device": "cpu",
+    "gpu_platform_id": 0,
+    "gpu_device_id": 0,
+    "num_threads": 14,
+    "boosting_type": "gbdt",
+    "data_sample_strategy": "goss",
+    "num_leaves": 20,
+    "max_depth": 7,
+    "subsample": 0.8,
+    "reg_alpha": 0.98,
+    "reg_lambda": 0.98,
+    "min_child_weight": 0.7544,
+    "learning_rate": 0.01,
+    "verbosity": 1
+  },
+  "seed": "RANDOM_SEED + window index",
+  "RANDOM_SEED": 70563,
+  "LOOKBACK": 240,
+  "GAP": 10,
+  "TEST_DAYS": 120,
+  "VALIDATION_FOLD": 5,
+  "PURGE": 10,
+  "SELECT_FEATURES": false,
+  "MAX_ROUNDS": 2000,
+  "EARLY_STOPPING_ROUNDS": 200
+}
